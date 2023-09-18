@@ -21,6 +21,8 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 <html>
 <head>
     <title>Hello Go!</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
     <script>console.log("hello")</script>
 </head>
 <body>
